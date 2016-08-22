@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+	
+	<TextView
+		android:id="@+id/activityname"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp"
+		android:paddingRight="10dip"
+		android:textColor="#d4482f"
+		android:textSize="60dp" />
+	
+    <TextView
+		android:id="@+id/timer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@+id/activityname"
+		android:layout_marginTop="20dp"
+		android:paddingRight="10dip"
+		android:textColor="#d4482f"
+		android:textSize="70dp" />
+    
+    <TextView
+		android:id="@+id/activitystatus"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@+id/timer"
+		android:textColor="#d4482f"
+		android:textSize="20dp" />
+
+	<ImageButton
+	    android:id="@+id/imageButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/activitystatus"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="66dp"
+	    android:background="@null"
+	    android:textColor="#d4482f"
+	    android:src="@drawable/start256" />
+
+</RelativeLayout>

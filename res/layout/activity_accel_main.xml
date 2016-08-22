@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="120dip"
+    android:padding="6dip" >
+
+    <TextView
+        android:id="@+id/firstLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="25dp"
+        android:text="Example"
+        android:textColor="#f7464a"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstLine"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:textSize="18sp"
+        android:textColor="#d4482f"
+        android:text="Delay(sec) : " />
+
+    <TextView
+        android:id="@+id/secondLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstLine"
+        android:layout_marginLeft="9dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="second line"
+        android:textColor="#d4482f"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondLine"
+        android:layout_marginLeft="25dp"
+        android:text="Freq(msec) : "
+        android:textColor="#d4482f"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/thirdLine"
+        android:layout_width="wrap_content"
+        android:layout_height="28dip"
+        android:layout_alignLeft="@+id/secondLine"
+        android:layout_below="@+id/secondLine"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="thirdline"
+        android:textColor="#d4482f"
+        android:textSize="14sp" />
+    
+</RelativeLayout>
